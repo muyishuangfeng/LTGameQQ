@@ -128,15 +128,15 @@ public class QQLoginManager {
                 @Override
                 public void onComplete(Object response) {
                     if (null == response) {
-                        Log.e("Tencent", "==返回为空登录失败");
+                        Log.e("Tencent2", "==返回为空登录失败");
                         return;
                     }
                     JSONObject jsonResponse = (JSONObject) response;
                     if (jsonResponse.length() == 0) {
-                        Log.e("Tencent", "==返回为空登录失败");
+                        Log.e("Tencent2", "==返回为空登录失败");
                         return;
                     }
-                    Log.e("Tencent", "==登录成功");
+                    Log.e("Tencent2", "==登录成功");
                 }
 
                 @Override
